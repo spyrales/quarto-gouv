@@ -8,24 +8,22 @@ params:
 ---
 
 
-::: {custom-style="Date"}
+<div custom-style="Date">
 `r params$lettre_lieu`, le `r params$lettre_date`
-:::
+</div>
 
-
-::: {custom-style="header-letter"}
+<div custom-style="header-letter">
 Je ne sais plus à quoi doit servir ce style
-:::
+</div>
 
-
-::: {custom-style="header-letter-naming"}
+<div custom-style="header-letter-naming">
 Madame la préfête de la Loire-Atlantique
-:::
+</div>
 
-::: {custom-style="objet-title"}
+
+<div custom-style="objet-title">
 Objet: Informations sur ...
-:::
-
+</div>
 
 ## Un titre de niveau 2
 
@@ -42,22 +40,22 @@ Le titre au dessus marque le début de la section des annexes.
 
 Listes à puces:
 
-::: {custom-style="Compact"}
+<div custom-style="Compact">
 - le style
 - "Compact"
 - est utilisé pour
 - les listes à puces
-:::
+</div>
 
 
 
-::: {custom-style="header-annexeN"}
+<div custom-style="header-annexeN">
 Annexe 1: Première annexe
-:::
+</div>
 
 
-::: {custom-style="subheader-annexe"}
+<div custom-style="subheader-annexe">
 Sous-titre de la première annexe
-:::
+</div>
 
 Contenu de l'annexe 1
