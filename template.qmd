@@ -1,0 +1,12 @@
+---
+title: "Template lettre"
+format:
+  docx:
+    toc: false
+    number-sections: true
+    highlight-style: github
+    reference-doc: custom-reference-doc.docx
+---
+
+
+Text todo
