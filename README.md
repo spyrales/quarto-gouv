@@ -1,6 +1,7 @@
 # quarto-gouv
 
 [![Licence](https://img.shields.io/badge/Licence-EUPL--1.2-001489)](https://joinup.ec.europa.eu/collection/eupl/eupl-text-eupl-12)
+![](https://github.com/spyrales/quarto-gouv/actions/workflows/ci_lettre-gouv-docx.yml/badge.svg)
 
 A [Quarto](https://quarto.org) extension for French governmental documents
 
