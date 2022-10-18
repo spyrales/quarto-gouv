@@ -57,7 +57,7 @@ Annexe 1: Première annexe
 :::
 
 
-<div custom-style="subheader-annexe">
+::: {custom-style="subheader-annexe"}
 Sous-titre de la première annexe
 :::
 
