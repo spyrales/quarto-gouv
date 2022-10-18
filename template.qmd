@@ -1,8 +1,6 @@
 ---
 #title: "Template lettre"
-format: 
-  quarto-gouv-docx:
-    output-file: out/test_render.docx
+format: quarto-gouv-docx
 params:
   entete_date: 22-10-2022
   entete_lieu: Paris
