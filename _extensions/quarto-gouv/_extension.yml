@@ -1,6 +1,6 @@
 title: Lettre Word
 author: Colin Dugeai
-version: 1.1.0
+version: 1.0.0
 contributes:
   formats:
     docx:
