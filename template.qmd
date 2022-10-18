@@ -13,7 +13,7 @@ params:
 
 ::: {custom-style="Date"}
 {{< meta params.entete_lieu >}}, le {{< meta params.entete_date >}}
-</div>
+:::
 
 <div custom-style="header-letter">
 Je ne sais plus à quoi doit servir ce style
