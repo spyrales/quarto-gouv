@@ -11,7 +11,7 @@ params:
 ---
 
 
-<div custom-style="Date">
+::: {custom-style="Date"}
 {{< meta params.entete_lieu >}}, le {{< meta params.entete_date >}}
 </div>
 
