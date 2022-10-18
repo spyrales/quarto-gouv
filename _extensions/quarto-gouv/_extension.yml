@@ -1,0 +1,10 @@
+title: Lettre Word
+author: Colin Dugeai
+version: 1.0.0
+contributes:
+  formats:
+    docx:
+      reference-doc: ressources/template_lettre.docx
+      toc: false
+      number-sections: false
+      highlight-style: github
