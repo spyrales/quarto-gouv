@@ -48,7 +48,7 @@ Listes à puces:
 - "Compact"
 - est utilisé pour
 - les listes à puces
-</div>
+:::
 
 
 
