@@ -26,7 +26,7 @@ Je ne sais plus à quoi doit servir ce style
 
 <div custom-style="objet-title">
 Objet: {{< meta params.objet_lettre >}}
-</div>
+:::
 
 ## Un titre de niveau 2
 
