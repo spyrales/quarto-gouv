@@ -1,12 +1,64 @@
 ---
-title: "Template lettre"
-format:
-  docx:
-    toc: false
-    number-sections: true
-    highlight-style: github
-    reference-doc: custom-reference-doc.docx
+#title: "Template lettre"
+format: 
+  quarto-gouv-docx:
+    output-file: out/test_render.docx
+params:
+  entete_date: 22-10-2022
+  entete_lieu: Paris
+  destinataire_titre: "Madame la préfête de la Loire-Atlantique"
+  objet_lettre: "Informations sur ..."
 ---
 
 
-Text todo
+<div custom-style="Date">
+{{< meta params.entete_lieu >}}, le {{< meta params.entete_date >}}
+</div>
+
+<div custom-style="header-letter">
+Je ne sais plus à quoi doit servir ce style
+</div>
+
+<div custom-style="header-letter-naming">
+{{< meta params.destinataire_titre >}}
+</div>
+
+
+<div custom-style="objet-title">
+Objet: {{< meta params.objet_lettre >}}
+</div>
+
+## Un titre de niveau 2
+
+"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+
+
+
+<div style="header-annexes">
+Annexes
+</div>
+
+Le titre au dessus marque le début de la section des annexes.
+
+
+Listes à puces:
+
+<div custom-style="Compact">
+- le style
+- "Compact"
+- est utilisé pour
+- les listes à puces
+</div>
+
+
+
+<div custom-style="header-annexeN">
+Annexe 1: Première annexe
+</div>
+
+
+<div custom-style="subheader-annexe">
+Sous-titre de la première annexe
+</div>
+
+Contenu de l'annexe 1
