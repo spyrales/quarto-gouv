@@ -6,7 +6,7 @@ format:
 params:
   entete_date: 22-10-2022
   entete_lieu: Paris
-  destinataire_titre: "Madame la préfête de la Loire-Atlantique"
+  destinataire_titre: "Madame la préfète de la Loire-Atlantique"
   objet_lettre: "Informations sur ..."
 ---
 
