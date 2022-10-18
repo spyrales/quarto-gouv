@@ -52,7 +52,7 @@ Listes à puces:
 
 
 
-<div custom-style="header-annexeN">
+::: {custom-style="header-annexeN"}
 Annexe 1: Première annexe
 :::
 
