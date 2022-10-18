@@ -36,7 +36,7 @@ Objet: {{< meta params.objet_lettre >}}
 
 <div style="header-annexes">
 Annexes
-</div>
+:::
 
 Le titre au dessus marque le début de la section des annexes.
 
