@@ -43,7 +43,7 @@ Le titre au dessus marque le début de la section des annexes.
 
 Listes à puces:
 
-<div custom-style="Compact">
+::: {custom-style="Compact"}
 - le style
 - "Compact"
 - est utilisé pour
