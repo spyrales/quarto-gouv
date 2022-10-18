@@ -34,7 +34,7 @@ Objet: {{< meta params.objet_lettre >}}
 
 
 
-<div style="header-annexes">
+::: {style="header-annexes"}
 Annexes
 :::
 
