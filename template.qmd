@@ -21,7 +21,7 @@ Je ne sais plus à quoi doit servir ce style
 
 <div custom-style="header-letter-naming">
 {{< meta params.destinataire_titre >}}
-</div>
+:::
 
 
 <div custom-style="objet-title">
