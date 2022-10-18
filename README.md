@@ -2,7 +2,7 @@
 
 [![Licence](https://img.shields.io/badge/Licence-EUPL--1.2-001489)](https://joinup.ec.europa.eu/collection/eupl/eupl-text-eupl-12)
 
-A Quarto extension for French governmental documents
+A [Quarto](https://quarto.org) extension for French governmental documents
 
 ## Licence
 
@@ -12,14 +12,20 @@ A Quarto extension for French governmental documents
 
 The following formats have been implemented so far.
 
-### docx
+### Letter
 
-The format `.docx` allows you to create a document with a letter layout compliant with the French Design System.
+The `lettre-gouv` format allows you to create a document with a letter layout compliant with the French Design System. For now, it is only available with the `docx` extension.
 
-To use it, first create a file `<your-file>.qmd`. To help you fill it, you can have a look at the [template.qmd](./template.qmd) file. Then run the following command:
+To use it:
 
 ```bash
-quarto render <your-file>.qmd --to quarto-gouv-docx
+quarto use template spyrales/quarto-gouv
+```
+
+Then run the following command:
+
+```bash
+quarto render <your-file>.qmd
 ```
 
 You can customise the rendering with [some parameters](https://quarto.org/docs/reference/formats/docx.html).
