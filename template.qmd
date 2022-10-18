@@ -54,7 +54,7 @@ Listes à puces:
 
 <div custom-style="header-annexeN">
 Annexe 1: Première annexe
-</div>
+:::
 
 
 <div custom-style="subheader-annexe">
