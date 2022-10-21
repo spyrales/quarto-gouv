@@ -1,0 +1,8 @@
+title: Présentation PowerPoint
+author: Thomas Faria
+version: 1.0.0
+contributes:
+  formats:
+    pptx:
+      reference-doc: ressources/template_presentation.pptx
+      toc: false
