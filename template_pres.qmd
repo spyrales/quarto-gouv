@@ -4,12 +4,37 @@ subtitle: "Sous-titre de la présentation"
 author: "Auteur de la présentation"
 date: "21/10/2022"
 format: presentation-gouv-pptx
+output:
+    slide_level: 3
 ---
 
-## Titre
+# 1. Titre de la partie
+
+## Titre de la slide
 
 - Texte de niveau 1
     - Texte de niveau 2
         - Texte de niveau 3
             - Texte de niveau 4
                 - Texte de niveau 5
+ 
+
+## Slide à deux colonnes
+
+:::::::::::::: {.columns}
+::: {.column}
+- Texte de niveau 1
+    - Texte de niveau 2
+        - Texte de niveau 3
+            - Texte de niveau 4
+                - Texte de niveau 5
+:::
+
+::: {.column}
+- Texte de niveau 1
+    - Texte de niveau 2
+        - Texte de niveau 3
+            - Texte de niveau 4
+                - Texte de niveau 5
+:::
+::::::::::::::
