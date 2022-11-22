@@ -2,7 +2,7 @@ on:
   push:
     branches: main
 
-name: lettre-gouv-docx generation
+name: presentation-dinum-pptx generation
 
 jobs:
   build-deploy:
@@ -16,6 +16,6 @@ jobs:
       - name: Set up Quarto
         uses: quarto-dev/quarto-actions/setup@v2
 
-      - name: Render lettre-gouv-docx
+      - name: Render presentation-dinum-pptx
         run: |
-          quarto render template.qmd
+          quarto render template_pres.qmd
