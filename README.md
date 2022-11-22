@@ -17,7 +17,13 @@ The following formats have been implemented so far.
 
 The `lettre-gouv` format allows you to create a document with a letter layout compliant with the French Design System. For now, it is only available with the `docx` extension.
 
-To use it:
+### DINUM Design System presentation
+
+The `presentation-gouv` format allows you to create a presentation compliant with the [DINUM](https://www.numerique.gouv.fr/dinum/) Design System. For now, it is only available with the `pptx` extension.
+
+### All formats
+
+To use any of the available formats, you can follow these steps:
 
 ```bash
 quarto use template spyrales/quarto-gouv
