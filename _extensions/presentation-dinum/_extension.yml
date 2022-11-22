@@ -4,5 +4,5 @@ version: 1.0.0
 contributes:
   formats:
     pptx:
-      reference-doc: ressources/template_presentation.pptx
+      reference-doc: ressources/template_presentation_dinum.pptx
       toc: false

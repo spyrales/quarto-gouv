@@ -3,7 +3,7 @@ title: "Titre de la présentation"
 subtitle: "Sous-titre de la présentation"
 author: "Auteur de la présentation"
 date: "21/10/2022"
-format: presentation-gouv-pptx
+format: presentation-dinum-pptx
 output:
     slide_level: 3
 ---

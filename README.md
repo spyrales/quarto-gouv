@@ -13,13 +13,15 @@ A [Quarto](https://quarto.org) extension for French governmental documents
 
 The following formats have been implemented so far.
 
-### Letter
+### Letters
 
-The `lettre-gouv` format allows you to create a document with a letter layout compliant with the French Design System. For now, it is only available with the `docx` extension.
+- `lettre-gouv`: this format allows you to create a document with a letter layout compliant with the French Design System. Available extensions:
+  - `docx`
 
-### DINUM Design System presentation
+### Presentations
 
-The `presentation-gouv` format allows you to create a presentation compliant with the [DINUM](https://www.numerique.gouv.fr/dinum/) Design System. For now, it is only available with the `pptx` extension.
+- `presentation-dinum`: this format allows you to create a presentation compliant with the [DINUM](https://www.numerique.gouv.fr/dinum/) Design System. Available extensions:
+  - `pptx`
 
 ### All formats
 
